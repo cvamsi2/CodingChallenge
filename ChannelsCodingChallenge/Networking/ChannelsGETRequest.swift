@@ -17,7 +17,7 @@ struct ChannelsGETRequest: BackendAPIRequest {
     var rawBody: Data?
     
     var endpoint: String {
-        return "/jvanaria/jvanaria.github.io/master/channels.json"
+        return "/channels.json"
     }
     
     var method: Method {

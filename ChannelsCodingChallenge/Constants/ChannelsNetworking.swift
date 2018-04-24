@@ -27,10 +27,10 @@ enum ErrorType {
 struct ChannelsNetworking {
     /* We don't have environments in this example, but this is where those constants would live. */
     private struct Domain {
-        private static let dev = "raw.githubusercontent.com"
-        private static let qa = "raw.githubusercontent.com"
-        private static let uat = "raw.githubusercontent.com"
-        private static let prod = "raw.githubusercontent.com"
+        private static let dev = "demo3753310.mockable.io"
+        private static let qa = "demo3753310.mockable.io"
+        private static let uat = "demo3753310.mockable.io"
+        private static let prod = "demo3753310.mockable.io"
         
         /* Hardcoding this for now, but this value would be accessed from the scheme the app is built with. */
         static func currentEnvironment() -> String {
